@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Книжковий дім</title>
+
+<style>
+/* ГОЛОВНА СЕКЦІЯ */
+.section-main {
+    text-align: center;
+    padding: 50px 20px;
+}
+.section-main-logo {
+    width: 120px;
+}
+.section-main-title {
+    font-size: 42px;
+    margin: 10px 0;
+}
+.section-main-subtitle {
+    font-size: 20px;
+    color: #777;
+}
+.section-main-button {
+    padding: 12px 25px;
+    font-size: 18px;
+    margin-top: 20px;
+    background: #5ea76b;
+    border: none;
+    color: #fff;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+/* ДРУГА СЕКЦІЯ */
+.second-section {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 50px;
+}
+.second-section-img {
+    width: 45%;
+    border-radius: 10px;
+}
+.second-section-info {
+    width: 50%;
+}
+.section-subtitle {
+    color: #76a77a;
+    font-size: 18px;
+}
+.section-title {
+    font-size: 32px;
+    margin: 5px 0 15px;
+}
+.second-section-text {
+    font-size: 18px;
+}
+.second-section-name {
+    margin-top: 10px;
+}
+.second-section-name2 {
+    font-weight: bold;
+}
+
+/* ТРЕТЯ СЕКЦІЯ — КНИЖКИ */
+.third-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+.third-section-books {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.third-section-book {
+    text-align: center;
+    width: 220px;
+}
+.book-img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.book-title {
+    font-size: 18px;
+    margin: 10px 0 5px;
+}
+.book-author {
+    font-size: 14px;
+    color: gray;
+    margin-bottom: 5px;
+}
+.book-price {
+    font-size: 18px;
+    color: #59a15b;
+    font-weight: bold;
+}
+
+/* FOOTER */
+.footer {
+    padding: 50px;
+    background: #e8f4ec;
+}
+.footer-title {
+    margin-bottom: 15px;
+}
+.footer-text {
+    font-size: 16px;
+}
+.footer-form {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+.form-title {
+    margin-top: 10px;
+}
+.form-input {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #aaa;
+}
+.footer-button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #5ea76b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+</style>
+
+</head>
+
+<body>
+
+<!-- ГОЛОВНА -->
+<main class="section-main">
+    <img src="img/logo.png" alt="логотип" class="section-main-logo">
+    <h1 class="section-main-title">Kнижковий дім</h1>
+    <h2 class="section-main-subtitle">Відкрий для себе наступну чудову книгу</h2>
+    <button class="section-main-button" type="button">Дізнатися більше</button>
+</main>
+
+<!-- ПРО НАС -->
+<section class="second-section">
+    <img src="img/library.jpeg" alt="зображення бібліотеки" class="second-section-img">
+    <div class="second-section-info">
+        <h3 class="section-subtitle">ЛАСКАВО ПРОСИМО ДО КНИЖКОВОГО ДОМУ</h3>
+        <h3 class="section-title">Про нашу бібліотеку</h3>
+        <p class="second-section-text">Ласкаво просимо до нашого Книжкового дому — тут є багато книг на будь-який смак!</p>
+        <p class="second-section-name">
+            <span class="second-section-name2">Богдан Богданов</span> — Засновник Книжкового дому
+        </p>
+    </div>
+</section>
+
+<!-- КНИЖКИ -->
+<section class="third-section">
+    <h3 class="section-subtitle">РЕКОМЕНДОВАНІ КНИГИ</h3>
+    <h3 class="section-title">Наша колекція</h3>
+
+    <div class="third-section-books">
+
+        <div class="third-section-book">
+            <img src="img/book1.jpeg" alt="Мій брат мумія" class="book-img">
+            <h4 class="book-title">Мій брат мумія</h4>
+            <p class="book-author">Бренд: А-БА-БА-ГА-ЛА-МА-ГА</p>
+            <p class="book-price">290 грн</p>
+        </div>
+
+        <div class="third-section-book">
+            <img src="img/book2.jpeg" alt="Гаррі Поттер" class="book-img">
+            <h4 class="book-title">Гаррі Поттер</h4>
+            <p class="book-author">Бренд: А-БА-БА-ГА-ЛА-МА-ГА</p>
+            <p class="book-price">340 грн/шт</p>
+        </div>
+
+        <div class="third-section-book">
+            <img src="img/book3.jpeg" alt="Формула" class="book-img">
+            <h4 class="book-title">Формула: як шахраї, генії та фанати швидкості перетворили Ф-1 на глобальний феномен</h4>
+            <p class="book-author">Джошуа Робінсон, Джонатан Клегг</p>
+            <p class="book-price">560 грн</p>
+        </div>
+
+        <div class="third-section-book">
+            <img src="img/book4.jpeg" alt="Вдома" class="book-img">
+            <h4 class="book-title">Вдома</h4>
+            <p class="book-author">Грем Нортон</p>
+            <p class="book-price">495 грн</p>
+        </div>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <h3 class="section-subtitle">Книжковий рай</h3>
+    <h3 class="section-title footer-title">Приєднуйтесь до нашої спільноти</h3>
+    <p class="footer-text">
+        <span class="footer-text-main">Підпишіться на нашу розсилку, щоб отримувати новинки!</span><br>
+        Для замовлень зв'яжіться з нами: (+380) 999-888-777
+    </p>
+
+    <form class="footer-form">
+        <p class="form-title">Ім'я</p>
+        <input type="text" id="name" class="form-input">
+
+        <p class="form-title">Електронна пошта</p>
+        <input type="email" id="email" class="form-input">
+
+        <p class="form-title">Телефон</p>
+        <input type="tel" id="phone" class="form-input">
+
+        <button class="footer-button" type="button">Підписатися</button>
+    </form>
+</footer>
+
+</body>
+</html>
